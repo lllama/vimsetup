@@ -7,7 +7,6 @@ set modelines=1
 set background=dark
 
 set encoding=utf-8
-let g:airline_powerline_fonts = 1 
 "Turn off backups
 set nobackup
 
@@ -73,6 +72,7 @@ nnoremap <leader><space> :noh<cr>
 " Tidy up Gvim a little
 if has("gui_running")
     if has("win32")
+        let g:airline_powerline_fonts = 1 
         "set guifont=Courier_New:h10:cANSI
         "set guifont=Monaco:h10:cANSI
         "set guifont=Inconsolata:h10:cANSI
