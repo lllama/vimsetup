@@ -13,3 +13,15 @@ else
     ln -s $(pwd)/vimfiles ~/.vim
 fi
 
+if [ ! -d ~/.vimswpdir ]; then
+    mkdir ~/.vimswpdir
+fi
+
+if [ ! -d ~/.vimundodir ]; then
+    mkdir ~/.vimundodir
+fi
+
+if [ ! -d ~/.vimbackupdir ]; then
+    mkdir ~/.vimbackupdir
+fi
+    
