@@ -121,6 +121,9 @@ else
 "        endif
 "    endif
 "    set nocursorline
+    if has("win32")
+        set background=light
+    endif
 endif
 
 if has("autocmd")
