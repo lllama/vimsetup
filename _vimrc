@@ -28,6 +28,11 @@ set shiftwidth=4
 set expandtab
 set softtabstop=4
 
+"set hidden
+set hidden
+set title
+set shortmess=atI
+
 "Set up search behaviour
 set hlsearch
 set ignorecase
@@ -143,6 +148,7 @@ endif
 
 " Syntastic stuff
 let g:syntastic_javascript_checkers = ['standard'] 
+let g:syntastic_python_checkers = ['flake8'] 
 
 "Set up Putty stuff on Windows
 let g:netrw_scp_cmd = 'c:\Progra~2\PuTTY\pscp.exe -q -batch'
