@@ -144,6 +144,7 @@ if has("autocmd")
     autocmd FileType javascript setlocal shiftwidth=2
     autocmd FileType javascript setlocal expandtab
     autocmd FileType javascript setlocal softtabstop=2
+    autocmd BufRead *.vue setf html
 endif
 
 " Syntastic stuff
